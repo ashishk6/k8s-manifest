@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: k8s-application-cm
+  namespace: sample
+data:
+  SERVE_PORT: "5000"
